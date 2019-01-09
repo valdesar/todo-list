@@ -3,7 +3,7 @@
 
 # Requirements: #
 
-1. App might be run on any web server which is congigured to server CGI (Apache with cgi module enabled)
+1. App might be run on any web server congigured to serve CGI (Apache with cgi module enabled)
 1. Python3
 
 
@@ -41,6 +41,7 @@ AddHandler cgi-script .cgi .py
 
 </VirtualHost>
 ```
+
 
 
 ### How to enable module ###
