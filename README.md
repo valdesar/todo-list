@@ -19,8 +19,8 @@
 
 
 
-##Apache config example##
-`
+## Apache config example ##
+
 <VirtualHost *:80>
 ServerName  test.local
 
@@ -40,7 +40,7 @@ AddHandler cgi-script .cgi .py
 </Directory>
 
 </VirtualHost>
-`
+
 
 
 ###How to enable module###
