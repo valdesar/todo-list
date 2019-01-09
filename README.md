@@ -26,10 +26,10 @@ ServerName  test.local
 
 
 DocumentRoot  /home/vladimir/dev/tasklist
-    ServerAdmin webmaster@localhost
+ServerAdmin webmaster@localhost
 AddDefaultCharset utf-8
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
 ScriptAlias /cgi-bin/ /home/vladimir/dev/tasklist/
 <Directory "/home/vladimir/dev/tasklist/">
 Require all granted
@@ -43,7 +43,7 @@ AddHandler cgi-script .cgi .py
 ```
 
 
-###How to enable module###
+### How to enable module ###
 
 > a2enmod cgi
 
