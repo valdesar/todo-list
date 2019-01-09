@@ -20,7 +20,7 @@
 
 
 ## Apache config example ##
-
+```sh
 <VirtualHost *:80>
 ServerName  test.local
 
@@ -40,7 +40,7 @@ AddHandler cgi-script .cgi .py
 </Directory>
 
 </VirtualHost>
-
+```
 
 
 ###How to enable module###
