@@ -30,7 +30,7 @@ ServerAdmin webmaster@localhost
 AddDefaultCharset utf-8
 ErrorLog ${APACHE_LOG_DIR}/error.log
 CustomLog ${APACHE_LOG_DIR}/access.log combined
-ScriptAlias /cgi-bin/ /home/vladimir/dev/tasklist/
+ScriptAlias /cgi-bin/ /home/USER/dev/tasklist/
 <Directory "/home/USER/dev/tasklist/">
 Require all granted
 Options +Indexes
